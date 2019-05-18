@@ -1,0 +1,35 @@
+{
+  "name": "zf-script",
+  "version": "1.0.0",
+  "description": "useful script",
+  "bin": {
+    "zf": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib/** bin/** index.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhanYishu/zf-script.git"
+  },
+  "keywords": [
+    "node",
+    "script"
+  ],
+  "author": "Zhifang Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhanYishu/zf-script/issues"
+  },
+  "homepage": "https://github.com/ZhanYishu/zf-script#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

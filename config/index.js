@@ -1,3 +1,3 @@
-export default {
-  templatesRepo: 'ssh://git@github.com:ZhanYishu/templates.git'
+module.exports = {
+  templatesRepo: 'https://github.com/ZhanYishu/templates.git'
 }

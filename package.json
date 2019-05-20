@@ -36,6 +36,8 @@
     "art-template": "^4.13.2",
     "camelcase": "^5.3.1",
     "commander": "^2.20.0",
+    "fs-extra": "^8.0.1",
+    "gh-clone": "^2.0.1",
     "klaw": "^3.0.0",
     "ora": "^3.4.0",
     "update-notifier": "^3.0.0"
